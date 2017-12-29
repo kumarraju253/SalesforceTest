@@ -9,4 +9,9 @@
         <members>Offer__c-Offer Layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>MyReportTest</members>
+        <members>MyReportTest/TestReport</members>
+        <name>Report</name>
+    </types>
 </Package>
