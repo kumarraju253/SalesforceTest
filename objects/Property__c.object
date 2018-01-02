@@ -43,71 +43,45 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Contact__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
+        <fullName>Price__c</fullName>
+        <description>The listed sale price of the home.</description>
         <externalId>false</externalId>
-        <label>Contact</label>
-        <referenceTo>Contact</referenceTo>
-        <relationshipLabel>Offers</relationshipLabel>
-        <relationshipName>Offers</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Offer_Amount__c</fullName>
-        <externalId>false</externalId>
-        <label>Offer Amount</label>
+        <label>Price</label>
         <precision>18</precision>
-        <required>false</required>
+        <required>true</required>
         <scale>0</scale>
         <trackTrending>false</trackTrending>
         <type>Currency</type>
     </fields>
     <fields>
-        <fullName>Offer_Name__c</fullName>
-        <displayFormat>OF-{0000}</displayFormat>
+        <fullName>Street_Address__c</fullName>
         <externalId>false</externalId>
-        <label>Offer Name</label>
+        <label>Street Address</label>
+        <required>true</required>
         <trackTrending>false</trackTrending>
-        <type>AutoNumber</type>
+        <type>TextArea</type>
     </fields>
-    <fields>
-        <fullName>Property__c</fullName>
-        <externalId>false</externalId>
-        <label>Property</label>
-        <referenceTo>Property__c</referenceTo>
-        <relationshipLabel>Offers</relationshipLabel>
-        <relationshipName>Offers</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
-        <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields>
-    <fields>
-        <fullName>Target_Close_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>Target Close Date</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
-    </fields>
-    <label>Offer</label>
+    <label>Property</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
-        <label>Offer Name</label>
+        <label>Property Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Offers</pluralLabel>
+    <pluralLabel>Properties</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
