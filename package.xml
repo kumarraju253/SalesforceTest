@@ -72,6 +72,7 @@
         <members>Lead.SICCode__c</members>
         <members>Metric.OrigMetricId__c</members>
         <members>MySchema__c.Amount__c</members>
+        <members>Object_7020__c.EmailId_7020__c</members>
         <members>Offer__c.Contact__c</members>
         <members>Offer__c.Offer_Amount__c</members>
         <members>Offer__c.Offer_Name__c</members>
@@ -90,6 +91,7 @@
         <members>Energy_Audit__c</members>
         <members>Favourite__c</members>
         <members>MySchema__c</members>
+        <members>Object_7020__c</members>
         <members>Offer__c</members>
         <members>Property__c</members>
         <members>TestObject__c</members>
@@ -164,6 +166,8 @@
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
         <members>MySchema__c-MySchema Layout</members>
+        <members>Object_7020__c-Layout_7020</members>
+        <members>Object_7020__c-Object_7020 Layout</members>
         <members>Offer__c-Offer Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
@@ -264,6 +268,7 @@
         <members>Identity User</members>
         <members>MarketingProfile</members>
         <members>Partner App Subscription User</members>
+        <members>Profile_7020</members>
         <members>ReadOnly</members>
         <members>SolutionManager</members>
         <members>Standard</members>
