@@ -327,6 +327,8 @@
     <types>
         <members>MyReportTest</members>
         <members>MyReportTest/TestReport</members>
+        <members>ReportTest</members>
+        <members>ReportTest/Teaeq23</members>
         <name>Report</name>
     </types>
     <types>
